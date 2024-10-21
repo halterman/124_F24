@@ -16,7 +16,7 @@ def draw_square(x: float, y: float, side: float, color: str) -> None:
     t.end_fill()
     t.update()
 
-def put_square(x: float, y: float) -> None:
+def put_square(x: float, y: float) -> object:
     draw_square(x, y, 20, 'red')
 
 
