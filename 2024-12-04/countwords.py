@@ -7,7 +7,7 @@ with open('declaration.text', 'r') as f:
     # Uppercase the content
     content = content.upper()
     # Split into a list of words
-    words = content.strip().split()
+    words = content.split()
     # Count each word
     for word in words:
         if word not in word_counts:
